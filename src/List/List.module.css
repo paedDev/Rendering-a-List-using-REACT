@@ -1,0 +1,39 @@
+
+
+.container{
+    background-color: rgb(95, 80, 80);
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+    color: rgb(201, 190, 190);
+    display: inline-block;
+    border-radius: 20px;
+
+}
+
+.categoryName {
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.listItems {
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+  
+
+}
+.listItems li {
+    transition: 0.5s ease;
+}
+
+
+.listItems li:hover{
+    color: rgb(228, 90, 26);    
+    transform:translateX(5px)
+
+
+}
